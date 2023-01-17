@@ -165,7 +165,7 @@
 
           <div class="step-img-box">
             <img
-              src="img/app/mehari12.png"
+              src="img/app/mehari10.png"
               class="step-img"
               alt="Méhari"
             />
@@ -202,7 +202,7 @@
           </div>
           <div class="step-img-box">
             <img
-              src="img/app/mehari2.png"
+              src="img/app/mehari9.png"
               class="step-img"
               alt="Méhari"
             />
@@ -211,7 +211,7 @@
           <!-- STEP 04 -->
           <div class="step-img-box">
             <img
-              src="img/app/mehari2.png"
+              src="img/app/mehari12.png"
               class="step-img"
               alt="Méhari"
             />
@@ -266,19 +266,19 @@
               <p class="meal-title">Méhari Naranja</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span>El clásico</span>
+                  <ion-icon class="meal-icon" name="flame"></ion-icon>
+                  <span><strong>Nuestro clásico</strong></span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon
                     class="meal-icon"
-                    name="restaurant-outline"
+                    name="restaurant"
                   ></ion-icon>
-                  <span>Ideal para bodas y como decoración</span>
+                  <span><strong>Ideal para bodas y eventos</strong></span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span>Nuestra estrella</span>
+                  <ion-icon class="meal-icon" name="star"></ion-icon>
+                  <span><strong>Nuestra estrella</strong></span>
                 </li>
               </ul>
               <br> <br> <br>
@@ -303,19 +303,19 @@
               <p class="meal-title">Méhari Beige</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>Nueva adquisición</span>
+                  <ion-icon class="meal-icon" name="flame"></ion-icon>
+                  <span><strong>Nueva adquisición</strong></span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon
                     class="meal-icon"
-                    name="restaurant-outline"
+                    name="restaurant"
                   ></ion-icon>
-                  <span>Ideal para eventos y decoración</span>
+                  <span><strong>Ideal para eventos y decoración</strong></span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span>Nuevo</span>
+                  <ion-icon class="meal-icon" name="star"></ion-icon>
+                  <span><strong>Nuevo</strong></span>
                 </li>
               </ul>
               <br> <br> <br>
@@ -538,7 +538,7 @@
           <div class="pricing-plan pricing-plan--starter ">
            <header class="plan-header">
              <p class="plan-name">Rodaje de películas, publicidad y promoción de empresas</p>
-             <ion-icon class="feature-icon2" name="videocam-outline"></ion-icon>
+             <ion-icon class="feature-icon2" name="videocam"></ion-icon>
              <p class="plan-text">Alquiler del vehículo para su uso en el rodaje de películas, publicidad y promoción</p>
            </header>
            <ul class="list">
@@ -568,7 +568,7 @@
          <div class="pricing-plan pricing-plan--complete">
            <header class="plan-header">
              <p class="plan-name">Eventos </br>y </br> Bodas</p>
-             <ion-icon class="feature-icon3" name="heart-outline"></ion-icon>
+             <ion-icon class="feature-icon3" name="heart"></ion-icon>
              <p class="plan-text">Haga de su día especial aún más especial.</p>
            </header>
            <ul class="list">
@@ -601,8 +601,8 @@
          <div class="pricing-plan pricing-plan--final">
            <header class="plan-header">
              <p class="plan-name">Tour por la ciudad o región</p>
-             <ion-icon class="feature-icon2" name="car-outline"></ion-icon>
-             <p class="plan-text">Ofrecemos un Tour por su ciudad o región en nuestro exclusivo Méhari </p>
+             <ion-icon class="feature-icon2" name="car"></ion-icon>
+             <p class="plan-text">Tour cultural personalizado y exclusivo a la demanda de los clientes</p>
            </header>
            <ul class="list">
              <li class="list-item">
@@ -678,42 +678,56 @@
                 Estamos aquí para hacer realidad tus sueños, ante cualquier duda, ¡Consúltanos!
               </p>
 
-              <form class="cta-form" name="sign-up" netlify>
+              <form action="https://formsubmit.co/fonsr4@gmail.com" method="POST" class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Nombre completo</label>
                   <input
                     id="full-name"
                     type="text"
-                    placeholder="Méhari Toursur"
-                    name="full-name"
+                    placeholder="Ej: Méhari Toursur"
+                    name="Nombre"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="email">Email</label>
+                  <label for="email">Tú Email</label>
                   <input
                     id="email"
                     type="email"
-                    placeholder="mehari@mehari.com"
+                    placeholder="Ej: mehari@mehari.com"
                     name="email"
                     required
                   />
                 </div>
-
                 <div>
-                  <label for="select-where">Selecciona el motivo de la reserva</label>
-                  <select id="select-where" name="select-where" required>
-                    <option value="">¿Para qué necesitas el Méhari?</option>
+                  <label for="movil">Móvil</label>
+                  <input
+                    id="movil"
+                    type="tel"
+                    maxlength="9"
+                    placeholder="Ej: 666666666"
+                    name="movil"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Motivo de la reserva</label>
+                  <select id="select-where" name="Motivo" required>
+                    <option value="">Seleccione el motivo de la reserva</option>
                     <option value="Bodas">Bodas</option>
                     <option value="Eventos">Eventos</option>
                     <option value="rodajePeliculas">Rodaje de películas</option>
                     <option value="Publicidad">Publicidad</option>
                     <option value="Promocion">Promoción de empresas</option>
                   </select>
-                </div>
-
-                <button class="btn btn--form">Enviar mail</button>
+                </div>                
+                <div>                 
+                  <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="10" required placeholder="Escriba su mensaje aquí"></textarea>
+                </div> 
+                <button type="submit" class="btn btn--form">Enviar mail</button>
+                <input type="hidden" name="_next" value="https://softaxserver.online/">
               </form>
             </div>
             <div
@@ -810,7 +824,7 @@
       <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header" style="background-color: #fe9521;">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -839,13 +853,19 @@
                 </ol>
                 <div class='carousel-inner'>
                   <div class='carousel-item active'>
-                    <img class='img-size' src='img/mehari1.png' alt='First slide' />
+                    <img class='img-size' src='img/carousel/Naranja/mehari1.png' alt='First slide' />
                   </div>
                   <div class='carousel-item'>
-                    <img class='img-size' src='img/mehari1.png' alt='Second slide' />
+                    <img class='img-size' src='img/carousel/Naranja/mehari2.png' alt='Second slide' />
                   </div>
                   <div class='carousel-item'>
-                    <img class='img-size' src='img/mehari1.png' alt='Second slide' />
+                    <img class='img-size' src='img/carousel/Naranja/mehari3.png' alt='third slide' />
+                  </div>
+                  <div class='carousel-item'>
+                    <img class='img-size' src='img/carousel/Naranja/mehari4.png' alt='Fourth slide' />
+                  </div>
+                  <div class='carousel-item'>
+                    <img class='img-size' src='img/carousel/Naranja/mehari5.png' alt='Five slide' />
                   </div>
                 </div>
                 <a
@@ -881,7 +901,7 @@
             <div class="modal fade" id="beigeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header" style="background-color: beige;">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -910,22 +930,16 @@
                       </ol>
                       <div class='carousel-inner'>
                         <div class='carousel-item active'>
-                          <img class='img-size' src='img/app/blanco/mehari_blanco.jpg' alt='First slide' />
+                          <img class='img-size' src='img/carousel/Beige/mehari_blanco.jpg' alt='First slide' />
                         </div>
                         <div class='carousel-item'>
-                          <img class='img-size' src='img/app/blanco/mehari_blanco1.jpg' alt='Second slide' />
+                          <img class='img-size' src='img/carousel/Beige/mehari_blanco1.jpg' alt='Second slide' />
                         </div>
                         <div class='carousel-item'>
-                          <img class='img-size' src='img/app/blanco/mehari_blanco6.jpg' alt='third slide' />
+                          <img class='img-size' src='img/carousel/Beige/mehari_blanco2.jpg' alt='third slide' />
                         </div>
                         <div class='carousel-item'>
-                          <img class='img-size' src='img/app/blanco/mehari_blanco5.jpg' alt='cuarto slide' />
-                        </div>
-                        <div class='carousel-item'>
-                          <img class='img-size' src='img/app/blanco/mehari_blanco3.jpg' alt='quinto slide' />
-                        </div>
-                        <div class='carousel-item'>
-                          <img class='img-size' src='img/app/blanco/mehari_blanco4.jpg' alt='sexto slide' />
+                          <img class='img-size' src='img/carousel/Beige/mehari_blanco3.jpg' alt='cuarto slide' />
                         </div>
                       </div>
                       <a
